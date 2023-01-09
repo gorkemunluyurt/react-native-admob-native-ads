@@ -53,7 +53,7 @@ export default function StarView({
   passRef,
   ...passThroughProps
 }) {
-  let Icon = MaterialCommunityIcons;
+  let Icon = IoniconsIcons;
   
   const viewStyle = useMemo(() => [styles.row, style], [style]);
   const renderIcons = useCallback(
